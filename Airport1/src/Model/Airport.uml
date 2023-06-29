@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="380.77916666666664" y="392.0">Model.CFlight</node>
+    <node x="56.75" y="726.0">Model.ESize</node>
+    <node x="363.7375" y="141.0">Model.CPlane</node>
+    <node x="363.9458333333333" y="671.0">Model.CGate</node>
+    <node x="463.875" y="0.0">Model.EType</node>
+    <node x="302.0" y="997.0">Model.CNationalGate</node>
+    <node x="0.0" y="997.0">Model.CInternationalGate</node>
+    <node x="535.0" y="942.0">Model.CAirport</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Model.CAirport" target="Model.CGate">
+      <point x="-95.33333333333331" y="-101.0" />
+      <point x="582.6666666666667" y="922.0" />
+      <point x="516.1958333333333" y="922.0" />
+      <point x="50.75" y="100.5" />
+    </edge>
+    <edge source="Model.CNationalGate" target="Model.CGate">
+      <point x="71.0" y="-46.0" />
+      <point x="479.5" y="922.0" />
+      <point x="482.3625" y="922.0" />
+      <point x="16.916666666666686" y="100.5" />
+    </edge>
+    <edge source="Model.CInternationalGate" target="Model.CGate">
+      <point x="35.25" y="-46.0" />
+      <point x="176.25" y="902.0" />
+      <point x="380.8625" y="902.0" />
+      <point x="-84.58333333333331" y="100.5" />
+    </edge>
+    <edge source="Model.CAirport" target="Model.CFlight">
+      <point x="95.33333333333331" y="-101.0" />
+      <point x="773.3333333333333" y="922.0" />
+      <point x="706.8833333333333" y="922.0" />
+      <point x="706.8833333333333" y="646.0" />
+      <point x="592.4458333333333" y="646.0" />
+      <point x="84.66666666666667" y="114.5" />
+    </edge>
+    <edge source="Model.CNationalGate" target="Model.ESize">
+      <point x="-71.0" y="-46.0" />
+      <point x="337.5" y="892.0" />
+      <point x="138.41666666666663" y="892.0" />
+      <point x="32.66666666666663" y="45.5" />
+    </edge>
+    <edge source="Model.CFlight" target="Model.EType">
+      <point x="84.66666666666667" y="-114.5" />
+      <point x="592.4458333333333" y="367.0" />
+      <point x="581.2375" y="367.0" />
+      <point x="581.2375" y="116.0" />
+      <point x="549.7083333333333" y="116.0" />
+      <point x="34.333333333333314" y="45.5" />
+    </edge>
+    <edge source="Model.CFlight" target="Model.CPlane">
+      <point x="0.0" y="-114.5" />
+      <point x="507.77916666666664" y="367.0" />
+      <point x="518.9875" y="367.0" />
+      <point x="51.75" y="100.5" />
+    </edge>
+    <edge source="Model.CInternationalGate" target="Model.ESize">
+      <point x="-35.25" y="-46.0" />
+      <point x="0.0" y="45.5" />
+    </edge>
+    <edge source="Model.CGate" target="Model.CFlight">
+      <point x="-50.75" y="-100.5" />
+      <point x="414.6958333333333" y="646.0" />
+      <point x="423.11249999999995" y="646.0" />
+      <point x="-84.66666666666669" y="114.5" />
+    </edge>
+    <edge source="Model.CPlane" target="Model.EType">
+      <point x="-51.75" y="-100.5" />
+      <point x="415.4875" y="116.0" />
+      <point x="481.0416666666667" y="116.0" />
+      <point x="-34.333333333333314" y="45.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="480.5" y="163.5" />
+  <SelectedNodes>
+    <node>Model.CFlight</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
